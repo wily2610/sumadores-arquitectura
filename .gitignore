@@ -1,0 +1,12 @@
+build/
+*.fst
+!/adders/waveform.fst
+!/core_min/waveform.fst
+!/core_min2/waveform_alu.fst
+!/core_min2/waveform_branch.fst
+!/core_min2/waveform_jump.fst
+*.vcd
+!/alu8/waveform.vcd
+__pycache__/
+*.pyc
+core_full/fpga/_copy_hex_generated.tcl
