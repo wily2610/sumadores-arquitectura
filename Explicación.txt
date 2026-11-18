@@ -1,0 +1,6 @@
+Primero, el programa guarda en la memoria los números 10, 20, 30, 40 y 50. Después comienza a leerlos uno por uno para ir sumándolos.
+Para hacerlo, utiliza un registro que guarda la suma, otro que indica dónde está cada número en la memoria y un contador que indica cuántos números faltan por sumar.
+El programa repite este proceso hasta terminar con los cinco números. La suma va aumentando: primero 10, después 30, luego 60, 100 y finalmente 150.
+Al terminar, el resultado se guarda en la memoria y después se vuelve a leer para comprobar que se guardó correctamente.
+Finalmente, podemos ver el resultado en los LEDs seleccionando el registro x3 con los switches (SW = 0011).
+En conclusión: el programa suma cinco números almacenados en memoria y muestra el resultado final, que es 150 (0x96 en hexadecimal).
